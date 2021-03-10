@@ -1,0 +1,12 @@
+matrixes:
+  example-matrix:
+    prober: dns
+    names:
+      - margau.net
+      - margau.ipv6.church
+    instances:
+      - ns1.margau-ns.de
+      - ns2.margau-ns.de
+      - ns3.margau-ns.de
+    dns:
+      soa-inconsistency-fail: true
